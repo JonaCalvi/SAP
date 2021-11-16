@@ -1,0 +1,99 @@
+.container-fluid{padding-left: 0px;padding-right: 0px;}
+body {
+    background-color: #;
+
+}
+
+p{
+  font-style: 
+}
+
+.section {
+	background-color: 
+}
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #5ee7df;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to top, rgba(94, 231, 223, 0.5), rgba(180, 144, 202, 0.5));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to top, rgba(94, 231, 223, 0.5), rgba(180, 144, 202, 0.5))
+}
+
+.tamanio {
+	height: 300px;
+	width: 400px;
+}
+
+.gradient-custom1 {
+  /* fallback for old browsers */
+  background: #30b201;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(48, 178, 1, 1), rgba(255, 164, 36, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(48, 178, 1, 1), rgba(255, 164, 36, 1))
+}
+
+.borde {
+	border-radius: 20px;
+border-bottom-right-radius: 80px;
+}
+
+.estilosIput {
+	border-radius: 80px;
+}
+
+@font-face {
+    font-family: "BauhausRegular";
+    src: url("../assets/BauhausRegular.ttf");
+}
+
+p {
+    font-family: "BauhausRegular", sans-serif ;
+    font-size: 150%;
+    font-weight: bold;}
+
+
+
+
+h1{
+	font-style: 'BauhausRegular', sans-serif;
+}
+
+
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+.css-input {
+     padding: 5px;
+     font-size: 16px;
+     border-width: 1px;
+     border-color: #da6516;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: hidden;
+     border-radius: 27px;
+     box-shadow: 2px 0px 5px rgba(66,66,66,.75);
+}
+ .css-input:focus {
+     outline:none;
+}
+
+
+.tarjeta {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.margenes {
+  margin-left: 20px;
+  margin-top: 20px;
+}

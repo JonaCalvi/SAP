@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--fuente-->
+    <!--BDP-->
+    <script src="libs/js/bootstrap-datepicker.js"></script>
+    <script src="libs/css/bootstrap-datepicker.min.css"></script>
+    
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cotizador Web</title>
+  </head>
+  <body>
+    <h1>Cotizador Web</h1>
+
+
+<div class="container-fluid tarjeta">
+
+    <div class="row gradient-custom1 borde">
+
+      <div class="col-md-9">
+<form>
+  <div class="row margenes">
+    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"><p>FECHA</p></label>
+    <div class="col-xl-3">
+
+    <input type="text" class="form-control borde" placeholder="Fecha">
+    </div>
+    <div class="col-xl-1" style="margin-left: 20px;">
+
+    <input type="number" class="count borde" name="qty" value="1"><p>Propuestas</p>
+    </div>
+  </div>
+</form>
+<form>
+  <div class="row margenes">
+
+    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"><p>VÁLIDO</p></label>
+    <div class="col-xl-3">
+      <input type="text" class="form-control borde" placeholder="Válido">
+    </div>
+</div>
+</form>
+<form>
+  <div class="row margenes">
+    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"><p>Nombre y Apellido</p></label>
+    <div class="col-xl-3">
+      <input type="text" class="form-control borde" placeholder="Nombre y Apellido">
+    </div>
+</div>
+</form>
+
+
+      </div>
+
+      <div class="col-md-3">
+        <img src="assets/logosap.png" class="img-fluid tamanio">
+      </div>
+
+    </div>
+
+  </div>
+
+
+<div class="container-fluid">
+    <h1>MOdal date</h1>
+    <button type="button" id="btnFecha"  class="btn btn-primary">Mostrar fecha</button>
+</div>
+<div class="container-fluid">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group date  fj-date">
+  <input type="text" class="form-control"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+</div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/java.js"></script>
+
+    
+  </body>
+</html>
